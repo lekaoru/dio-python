@@ -22,7 +22,11 @@ while True:
 
         if valor > 0:
                 saldo += valor
+<<<<<<< HEAD
                 extrato += f"deposito: R$ {valor:.2f}\n"
+=======
+                extrato ++ f"deposito: R$ {valor:.2f}\n"
+>>>>>>> df27f8486708721e41938afa79fe69e06f39bc31
         
         else:
             print("Operação falhou! O valor informado deve ser maior do que 0.")
@@ -46,7 +50,11 @@ while True:
         elif valor > 0:
             saldo -= valor
             extrato += f"Saque: R$ {valor:.2f}\n"
+<<<<<<< HEAD
             numero_saques += numero_saques
+=======
+            numero_saques += ''
+>>>>>>> df27f8486708721e41938afa79fe69e06f39bc31
             
         else:
             print("Operação falhou! O valor informado é inválido.")
